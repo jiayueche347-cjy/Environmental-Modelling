@@ -66,10 +66,11 @@ This project was completed as part of a four-person group.
 
 My primary contributions included:
 
-- Analytical modelling and solution development
-- Implementation and analysis using Excel and Python
-- Work on Exercise 1 and Exercise 4
-- Contribution to model debugging
+- Development and analysis of the reversible and irreversible adsorption models in Exercise 1
+- Analytical solution used for comparison with numerical methods
+- Simulation and analysis of microbial biodegradation in Exercise 4
+- Contribution to Excel and Python implementation
+- Model debugging and error checking
 - Contribution to report writing, figures, and quality control
 
 ## Skills Demonstrated
