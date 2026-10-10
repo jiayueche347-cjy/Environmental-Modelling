@@ -28,6 +28,32 @@ The modelling workflow included:
 5. Mass-balance evaluation
 6. Sensitivity analysis
 
+## Results
+
+### Reversible Adsorption
+
+The reversible system was simulated to examine the transfer of contaminant mass between dissolved (D), adsorbed (A), and sequestered (S) compartments over time.
+
+![Mass-time variation for the reversible process](figures/reversible-process.png)
+
+The simulation shows the redistribution of contaminant mass among the three compartments as the system approaches equilibrium.
+
+### Irreversible Sequestration
+
+The irreversible system was then simulated to investigate contaminant behaviour when sequestration prevents the reverse transfer of contaminant mass.
+
+![Mass-time variation for the irreversible process](figures/irreversible-process.png)
+
+Compared with the reversible case, the dissolved contaminant mass decreases to nearly zero, while the contaminant is progressively transferred to the adsorbed and sequestered compartments.
+
+### Microbial Biodegradation
+
+The model was extended to include microbial growth and biodegradation, allowing the interactions among dissolved, adsorbed, and sequestered contaminant, microbial biomass, and mineralised carbon to be simulated.
+
+![Mass-time variation with microbial biodegradation](figures/microbial-biodegradation.png)
+
+The microbial biomass reached a maximum of approximately 0.129 g at 15.7 days. The simulated specific growth rate decreased over time as the available substrate was depleted.
+
 ## Key Findings
 
 The modelling exercise demonstrated how analytical and numerical approaches can be used together to understand contaminant fate and microbial processes.
