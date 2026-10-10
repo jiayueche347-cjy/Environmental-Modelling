@@ -29,13 +29,44 @@ The project followed a structured environmental modelling workflow:
 7. Calibration and validation
 8. Evaluation of model performance and limitations
 
+## Results
+
+### Sensitivity-Guided Parameter Selection
+
+Global sensitivity analysis using the Morris method was used to identify the parameters that most strongly influenced model behaviour.
+
+![Morris global sensitivity analysis](figures/morris-sensitivity-analysis.png)
+
+The analysis identified α₀ as the dominant parameter, while λ₂ also showed a meaningful influence on model output. Based on these results, α₀ and λ₂ were selected for subsequent model calibration, allowing the optimization problem to focus on the most influential parameters.
+
+### Model Calibration and Validation
+
+The selected parameters were estimated using the dual-annealing global optimization algorithm. The dataset was divided into calibration and validation periods while maintaining a more balanced distribution of wet-weather events.
+
+![Observed and simulated NH4 load during calibration and validation](figures/calibration-validation.png)
+
+The optimized parameter values were:
+
+- **α₀ = 128.216**
+- **λ₂ = 6.514**
+
+Both optimized values remained within the parameter ranges defined during the sensitivity analysis.
+
+The calibrated model reproduced the observed NH₄⁺ dynamics reasonably well during the calibration period, capturing the periodic pattern and most peak events. Performance declined during validation, where some simulated peaks were higher and sharper than the observations, indicating reduced generalization under more variable wet-weather conditions.
+
+### Calibration Robustness
+
+The robustness of the calibration was evaluated by repeating the optimization using narrower and wider parameter bounds.
+
+The original parameter ranges produced an inverse MSE of **0.001488**. Narrowing the parameter ranges reduced performance, while widening them produced almost no additional improvement. This indicates that the original sensitivity-analysis-based parameter ranges already captured the optimum effectively.
+
+The calibrated model also reduced the concentration RMSE to approximately **10.9**, demonstrating a substantial improvement in model performance after parameter estimation.
+
 ## Key Findings
 
-Sensitivity analysis identified α₀ as the dominant model parameter, with λ₂ also influencing model behaviour.
+Sensitivity analysis provided an effective basis for reducing the calibration problem to the most influential parameters. Global optimization substantially improved model fit, while independent validation revealed that model performance was less reliable under variable wet-weather conditions.
 
-Based on these results, α₀ and λ₂ were selected for calibration using a dual-annealing global optimization algorithm. The optimized values were α₀ = 128.216 and λ₂ = 6.514.
-
-Calibration substantially improved model performance. The model reproduced NH₄⁺ dynamics reasonably well during the calibration period but showed reduced predictive performance during validation, particularly under variable wet-weather conditions.
+This highlights the importance of combining sensitivity analysis, calibration, and validation rather than evaluating environmental models solely on their calibration performance.
 
 ## My Contribution
 
