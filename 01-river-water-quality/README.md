@@ -34,7 +34,7 @@ The modelling workflow included:
 
 The concentration profile was examined to evaluate whether the model responded realistically to CSO discharges. The model shows a clear increase in pollutant concentration downstream of a major CSO discharge point, followed by dilution along the river.
 
-![Concentration along the river](figures/concentration-diagnosis .png)
+![Concentration along the river](figures/concentration-diagnosis.png)
 
 The corresponding EQS exceedance profile was used to identify river sections where simulated concentrations exceeded the environmental quality standard.
 
