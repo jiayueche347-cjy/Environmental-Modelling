@@ -27,6 +27,24 @@ The modelling workflow included:
 4. Local sensitivity analysis
 5. Model application
 6. Robustness and reliability assessment
+   
+## Results
+
+### Model Diagnosis
+
+The concentration profile was examined to evaluate whether the model responded realistically to CSO discharges. The model shows a clear increase in pollutant concentration downstream of a major CSO discharge point, followed by dilution along the river.
+
+![Concentration along the river](figures/concentration-diagnosis.png)
+
+The corresponding EQS exceedance profile was used to identify river sections where simulated concentrations exceeded the environmental quality standard.
+
+![EQS exceedance along the river](figures/eqs-exceedance-diagnosis.png)
+
+### Model Application
+
+The model was then applied to simulate the spatial distribution of the selected micropollutant along the Mølle Å river. The simulation identified downstream sections with elevated concentrations and potential water-quality risks.
+
+![Simulated concentration along Mølle Å](figures/concentration-simulation.png)
 
 ## Key Findings
 
