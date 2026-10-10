@@ -29,6 +29,40 @@ The transport analysis considered:
 5. Changes in pumping-well location
 6. Time-dependent boundary concentrations
 
+## Results
+
+### PMT Breakthrough Behaviour
+
+Breakthrough curves were simulated for three persistent and mobile substances (MEL, 4-NP, and CBZ) to investigate how contaminant-specific transport properties influence concentrations at the pumping well.
+
+![Breakthrough curves for PMT substances](figures/pmt-breakthrough-curves.png)
+
+Compared with a conservative tracer, the PMT substances showed delayed breakthrough and lower concentrations at the pumping well due to the combined effects of retardation and degradation. Differences among the three substances demonstrate the influence of contaminant-specific transport properties on breakthrough behaviour.
+
+### Effect of Well Distance
+
+The pumping well was moved from 50 m to 150 m from the river to investigate how well location affects groundwater flow and contaminant transport.
+
+![Effect of pumping-well distance](figures/well-distance-effect.png)
+
+Increasing the river-to-well distance weakened the hydraulic coupling between the river and the pumping well and increased groundwater travel time. The contaminant plume consequently advanced more slowly toward the well, resulting in delayed breakthrough.
+
+### Time-Dependent 4-NP Transport
+
+A time-dependent 4-NP concentration was applied at the river boundary to investigate how changing source concentrations affect contaminant transport.
+
+![Time-dependent 4-NP transport](figures/time-dependent-4np.png)
+
+The simulated concentration at the pumping well reached a maximum of approximately 1.19 × 10⁻⁶ kg/m³ on day 84. Unlike the constant-concentration scenario, the time-dependent boundary produced a non-monotonic breakthrough curve: the concentration increased to a peak and subsequently declined as the river concentration decreased.
+
+## Model Limitations
+
+The modelling approach includes several simplifying assumptions that should be considered when interpreting the results:
+
+- **Homogeneous and isotropic aquifer:** Hydraulic conductivity and porosity were assumed to be spatially uniform, whereas natural aquifers are typically heterogeneous.
+- **Simplified boundary conditions:** River and external boundaries were represented using idealised boundary conditions, while real river–aquifer interactions may vary over time.
+- **Linear sorption and first-order degradation:** Reactive processes were represented using simplified linear and first-order relationships, although real contaminant behaviour may depend on concentration, redox conditions, and microbial activity.
+
 ## Key Findings
 
 Reactive transport simulations showed that contaminant properties such as retardation and degradation strongly influence breakthrough behaviour at the pumping well.
