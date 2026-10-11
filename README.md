@@ -119,5 +119,4 @@ Each subdirectory contains a separate environmental modelling project, including
 **Course:** 12104 Environmental Modelling  
 **Institution:** Technical University of Denmark (DTU)  
 **Semester:** Autumn 2025  
-**Programme:** MSc Environmental Engineering  
 **Project Type:** Environmental modelling and quantitative analysis
