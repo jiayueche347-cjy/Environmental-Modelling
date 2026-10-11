@@ -1,10 +1,10 @@
 # Environmental Modelling Portfolio
 
-A collection of environmental modelling projects completed as part of the MSc Environmental Engineering programme at the Technical University of Denmark (DTU).
+A portfolio of environmental modelling projects covering water quality, contaminant fate, groundwater reactive transport, wastewater systems, sensitivity analysis, and model calibration.
 
-These projects cover water-quality modelling, contaminant fate, groundwater reactive transport, wastewater modelling, sensitivity analysis, and model calibration.
+The projects demonstrate experience in environmental model development, simulation, parameter estimation, sensitivity analysis, calibration and validation, scenario analysis, and interpretation of model results.
 
-The portfolio demonstrates experience with environmental model development, simulation, sensitivity analysis, parameter estimation, calibration and validation, and interpretation of model results.
+The original assignments were completed collaboratively in groups. This repository presents a portfolio-oriented summary of the work, with my individual contributions identified within each project.
 
 ---
 
@@ -99,23 +99,25 @@ Calibration and validation of an NH₄⁺ model for wastewater and sewer-system 
 
 ---
 
-## About
-
-These projects were completed during the **12104 Environmental Modelling** course at the **Technical University of Denmark (DTU)** as part of my MSc studies in Environmental Engineering.
-
-The original assignments were completed collaboratively in groups. This repository presents a portfolio-oriented summary of the work, with my individual contributions clearly identified within each project.
-
-Original course assignments, teaching materials, and datasets are not reproduced in this repository.
-
----
-
 ## Repository Structure
 
 ```text
 Environmental-Modelling/
-│
 ├── 01-river-water-quality/
 ├── 02-contaminant-fate-ode/
 ├── 03-riverbank-filtration/
 ├── 04-wastewater-ammonium-calibration/
 └── README.md
+```
+
+Each subdirectory contains a separate environmental modelling project, including the corresponding assignment report, project-specific documentation, and supporting figures where applicable.
+
+---
+
+## Project Information
+
+**Course:** 12104 Environmental Modelling  
+**Institution:** Technical University of Denmark (DTU)  
+**Semester:** Autumn 2025  
+**Programme:** MSc Environmental Engineering  
+**Project Type:** Environmental modelling and quantitative analysis
